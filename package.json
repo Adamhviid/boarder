@@ -2,12 +2,9 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "npm run development",
-        "development": "webpack --config webpack.mix.js --mode development",
-        "watch": "webpack --config webpack.mix.js --mode development --watch",
-        "hot": "webpack serve --config webpack.mix.js --mode development",
-        "prod": "npm run production",
-        "production": "webpack --config webpack.mix.js --mode production"
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
     },
     "devDependencies": {
         "@apollo/client": "^3.9.6",
@@ -36,6 +33,7 @@
         "eslint-plugin-react": "^7.33.2",
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-react-refresh": "^0.4.5",
+        "laravel-vite-plugin": "^1.0.5",
         "lodash": "^4.17.21"
     }
 }

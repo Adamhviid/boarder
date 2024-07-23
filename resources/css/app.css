@@ -1,0 +1,48 @@
+/* App.css */
+
+/* Container to center content horizontally and vertically */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Full viewport height */
+  background-color: #f4f4f4;
+  /* Light background color */
+}
+
+/* Container for the posts */
+.posts-container {
+  width: 50%;
+  /* 50% width of the container */
+  max-width: 800px;
+  /* Optional: limit the maximum width */
+}
+
+/* Style for each individual post */
+.post {
+  border: 1px solid #ddd;
+  /* Light gray border */
+  border-radius: 8px;
+  /* Rounded corners */
+  padding: 16px;
+  /* Padding inside the post */
+  margin-bottom: 16px;
+  /* Space between posts */
+  background-color: #fff;
+  /* White background color */
+}
+
+/* Optional: style for the post title */
+.post h3 {
+  margin-top: 0;
+  /* Remove top margin for the title */
+  margin-bottom: 8px;
+  /* Space below the title */
+}
+
+/* Optional: style for the post content */
+.post p {
+  margin-top: 0;
+  /* Remove top margin for the content */
+}
